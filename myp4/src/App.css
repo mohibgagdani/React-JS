@@ -1,0 +1,9 @@
+#box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+}

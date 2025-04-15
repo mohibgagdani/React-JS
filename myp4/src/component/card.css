@@ -1,0 +1,39 @@
+.card {
+    width: 24vw;
+    height: 500px;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px; /* Further reduced margin on all sides */
+}
+
+.card .img {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.card .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .data span {
+    font-size: large;
+    font-style: italic;
+    color: black;
+}
+
+.card .data h1 {
+    font-style: italic;
+    color: black;
+}
